@@ -1,89 +1,128 @@
-# 🗂️ DevOps & Cloud Projects Portfolio
+# 🌟 Aditya Vishwakarma – Full-Stack, Cloud & AI Projects Portfolio
 
-Welcome to my **GitHub Projects Portfolio**!
-This repository contains multiple projects focused on **DevOps, Cloud Computing, CI/CD, and Full-Stack Development**.
-Each project includes detailed instructions, Docker setups, CI/CD pipelines, and Kubernetes deployments.
+Welcome to my **project portfolio repository**!
+This repository contains **10 real-world projects**, demonstrating expertise in:
 
----
+* **Frontend Development**: React, Tailwind CSS, Angular
+* **Backend Development**: Node.js, Java Spring Boot
+* **Cloud & DevOps**: AWS, Docker, Kubernetes, Jenkins, Terraform
+* **AI & NLP**: AWS Lex, Lambda, NLP models
+* **Database Management**: MongoDB, DynamoDB, MySQL
 
-## 📌 Projects Overview
-
-| Project       | Description                               | Tech Stack / Tools                                   | Key Highlights                                                                 |
-| ------------- | ----------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------ |
-| **Project 1** | Dockerized Web App + MySQL (Two-Tier App) | Node.js, MySQL, Docker, Docker Compose               | Two-tier architecture with web & database containers, persistent storage       |
-| **Project 2** | Docker Compose Two-Tier App               | Node.js, MySQL, Docker                               | Simple web app with DB, ready for CI/CD integration                            |
-| **Project 3** | GitLab CI/CD Pipeline                     | Node.js / Django, GitLab CI/CD, Docker, AWS EC2      | Automates build, test, and deployment on AWS EC2                               |
-| **Project 4** | DevSecOps Jenkins Pipeline                | Node.js, Jenkins, SonarQube, Trivy, Docker           | Integrates security scans, code quality, and automated deployment              |
-| **Project 5** | Three-Tier App Deployment on AWS EKS      | Node.js / Django, MySQL, Docker, Kubernetes, AWS EKS | Fully containerized three-tier app with frontend, backend, and database on EKS |
+Each project is **self-contained**, deployable, and comes with **documentation, flows, and code**.
 
 ---
 
-## 🔗 Project Links
+## 📂 Projects Overview
 
-* **Project 1** – [Two-Tier Docker App](https://github.com/<your-username>/project-1-docker-twotier)
-* **Project 2** – [Two-Tier App for CI/CD](https://github.com/<your-username>/project-2-docker-twotier)
-* **Project 3** – [GitLab CI/CD Deployment](https://github.com/<your-username>/project-3-ci-cd-aws)
-* **Project 4** – [DevSecOps Jenkins Pipeline](https://github.com/<your-username>/project-4-devsecops-node)
-* **Project 5** – [Three-Tier App on AWS EKS](https://github.com/<your-username>/project-5-aws-eks)
-
-*(Replace `<your-username>` with your GitHub username)*
-
----
-
-## ⚙️ How to Use This Repository
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/<your-username>/devops-cloud-projects.git
-cd devops-cloud-projects
-```
-
-2. **Choose the project folder** (Project1, Project2, … Project5)
-
-3. **Follow each project README** for setup, installation, and running instructions.
+| #  | Project Name                                     | Tech Stack / Highlights                                 | GitHub Link                                                                          |
+| -- | ------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 1  | Hospital Management System                       | Java Spring Boot, MySQL, RESTful APIs                   | [Project 1](https://github.com/<your-username>/project-1-hms)                        |
+| 2  | Task Management Application                      | Angular, Node.js, REST APIs                             | [Project 2](https://github.com/<your-username>/project-2-task)                       |
+| 3  | Employee Leave Management System                 | Angular, Node.js, MongoDB                               | [Project 3](https://github.com/<your-username>/project-3-leaves)                     |
+| 4  | AWS Lambda S3 Automation                         | AWS Lambda, S3, Node.js                                 | [Project 4](https://github.com/<your-username>/project-4-lambda)                     |
+| 5  | Angular Form Validation & Reactive Forms         | Angular, TypeScript, Tailwind CSS                       | [Project 5](https://github.com/<your-username>/project-5-angular-forms)              |
+| 6  | Task Dashboard & Analytics                       | Angular, Chart.js, Node.js                              | [Project 6](https://github.com/<your-username>/project-6-dashboard)                  |
+| 7  | Employee Management Portal                       | React, Node.js, MongoDB                                 | [Project 7](https://github.com/<your-username>/project-7-ems)                        |
+| 8  | Kubernetes CI/CD Pipeline with Jenkins           | Docker, Kubernetes, Jenkins, Node.js                    | [Project 8](https://github.com/<your-username>/project-8-k8s-jenkins)                |
+| 9  | Serverless Chatbot (AWS Lex + Lambda + DynamoDB) | AWS Lex, Lambda, DynamoDB, Node.js                      | [Project 9](https://github.com/<your-username>/project-9-serverless-chatbot)         |
+| 10 | Mega Project: Smart Cloud Platform               | React, Node.js, Terraform, Kubernetes, Jenkins, AWS Lex | [Mega Project](https://github.com/<your-username>/mega-project-smart-cloud-platform) |
 
 ---
 
-## 📝 Key Skills Demonstrated
+## 🔄 Project Flows
 
-* **Containerization & Orchestration**: Docker, Docker Compose, Kubernetes, AWS EKS
-* **CI/CD Automation**: GitLab CI/CD, Jenkins Pipelines
-* **DevSecOps Practices**: SonarQube code quality analysis, Trivy security scanning
-* **Backend & Full-Stack Development**: Node.js, Express, Django, MySQL
-* **Cloud Deployment & Scalability**: AWS EC2, EKS, LoadBalancer, Persistent Volumes
-* **Project Structuring & Version Control**: GitHub repository management, modular project design
-
----
-
-## 📂 Folder Structure (High-Level)
+### Project 1 – Hospital Management System
 
 ```
-devops-cloud-projects/
-│-- Project-1-docker-twotier/
-│-- Project-2-docker-twotier/
-│-- Project-3-ci-cd-aws/
-│-- Project-4-devsecops-node/
-│-- Project-5-aws-eks/
-│-- README.md           # Master README
+Frontend -> Backend REST APIs -> MySQL Database -> CRUD Operations
 ```
 
+### Project 2 – Task Management Application
 
-<!--
+```
+Angular Frontend -> Node.js Backend -> MongoDB -> Task CRUD & Validation
+```
 
-## 💡 Tips
+### Project 3 – Employee Leave Management System
 
-* Each project has its **own README.md** for detailed instructions.
-* Make sure to have **Docker, kubectl, or Jenkins configured** locally before running projects.
-* Replace **Docker Hub / AWS credentials** in manifests/pipelines before deployment.
+```
+Frontend -> Backend -> MongoDB -> Leave Request/Approval Flow
+```
+
+### Project 4 – AWS Lambda S3 Automation
+
+```
+S3 Event Trigger -> Lambda Function -> File Processing -> S3 Bucket Output
+```
+
+### Project 5 – Angular Form Validation
+
+```
+User Input -> Angular Reactive Form -> Validation -> Submit -> Backend
+```
+
+### Project 6 – Task Dashboard & Analytics
+
+```
+Frontend Dashboard -> API Fetch -> Charts/Graphs -> Visual Analytics
+```
+
+### Project 7 – Employee Management Portal
+
+```
+Frontend -> Backend API -> MongoDB -> Employee CRUD -> User Interface
+```
+
+### Project 8 – Kubernetes CI/CD Pipeline with Jenkins
+
+```
+GitHub Commit -> Jenkins Pipeline -> Docker Build -> Push -> K8s Deployment
+```
+
+### Project 9 – Serverless Chatbot
+
+```
+User Message -> AWS Lex -> Lambda -> DynamoDB -> Response -> User
+```
+
+### Mega Project – Smart Cloud Platform
+
+```
+Frontend (React) -> Backend APIs -> Database (MongoDB/DynamoDB) -> Chatbot (Lex+Lambda)
+       -> CI/CD Pipeline (Jenkins) -> Docker/Kubernetes -> Terraform AWS Infra -> Monitoring
+```
 
 ---
 
-## 📧 Contact
+## 🛠️ Tools & Technologies Covered
 
-* GitHub: [https://github.com/<your-username>](https://github.com/<your-username>)
-* LinkedIn: [https://www.linkedin.com/in/<your-linkedin>](https://www.linkedin.com/in/<your-linkedin>)
+* **Frontend**: React, Angular, Tailwind CSS, TypeScript
+* **Backend**: Node.js, Java Spring Boot, Express
+* **Databases**: MongoDB, MySQL, DynamoDB
+* **Cloud & DevOps**: AWS, Docker, Kubernetes, Jenkins, Terraform
+* **Serverless & AI**: AWS Lex, AWS Lambda, NLP models
+* **Monitoring & Logging**: CloudWatch, Grafana, Prometheus
 
---->
+---
 
+## 📌 Highlights & Achievements
 
+* **End-to-end portfolio** showcasing **frontend, backend, cloud, AI, and DevOps integration**.
+* Designed **deployable and production-ready applications**.
+* Implemented **serverless architecture** for chatbots and automation.
+* Automated **CI/CD pipelines and Kubernetes deployments**.
+* Managed **cloud infrastructure with Terraform**, ensuring scalability and security.
+
+---
+
+## 🔗 Repository Links
+
+* **All individual projects** are linked above.
+* Mega Project serves as the **central showcase** for integrating all skills.
+
+---
+
+This **Master README** can now go at the **root of your GitHub portfolio repository**, linking all 10 projects with clear flows and highlights.
+
+---
