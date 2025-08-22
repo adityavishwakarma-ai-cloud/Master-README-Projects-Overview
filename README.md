@@ -68,7 +68,6 @@ devops-cloud-projects/
 │-- README.md           # Master README
 ```
 
----
 
 <!--
 
