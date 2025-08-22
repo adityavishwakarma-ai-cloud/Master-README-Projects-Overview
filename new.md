@@ -168,11 +168,11 @@ Cloud Infrastructure (Terraform on AWS)
 Monitoring & Logging (CloudWatch / Grafana)
 ```
 
----
+<!---
 
 This **Master README** is now **ready for GitHub** and:
 
 * Lists **all 9 previous projects + Mega Project**
 * Shows **flows and architecture in concise hierarchy**
 * Highlights **skills, tech stack, and deployment**
-
+--->
