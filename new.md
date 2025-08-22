@@ -14,6 +14,20 @@ Each project is **self-contained**, production-ready, and comes with **flows and
 
 ## 📂 Projects Overview
 
+| #  | Project Name                           | Tech Stack / Highlights                                                               | GitHub Link                                                                          |
+| -- | -------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 1  | Two-Tier Docker App                    | Node.js/Django + MySQL, Containerized with Docker, Run via docker-compose             | [Project 1](https://github.com/<your-username>/project-1-two-tier-docker-app)        |
+| 2  | Two-Tier Docker App with CI/CD Prep    | Web + Database containers, Structured for CI/CD, Ready for automated builds/tests     | [Project 2](https://github.com/<your-username>/project-2-docker-ci-cd-prep)          |
+| 3  | GitLab CI/CD Pipeline                  | GitLab CI/CD on commit → Build Docker Image, Run Unit Tests, Deploy to AWS EC2        | [Project 3](https://github.com/<your-username>/project-3-gitlab-ci-cd-pipeline)      |
+| 4  | DevSecOps Jenkins Pipeline             | Jenkins Pipeline: Build, Test, SonarQube, Trivy Scan, Deploy to Docker Compose        | [Project 4](https://github.com/<your-username>/project-4-devsecops-jenkins)          |
+| 5  | Three-Tier App on AWS EKS              | Frontend + Backend + DB, Kubernetes-managed on AWS EKS, Scalable & HA                 | [Project 5](https://github.com/<your-username>/project-5-three-tier-eks)             |
+| 6  | Task Dashboard & Analytics             | Angular Dashboard + API, Data Visualization (Charts), Productivity Insights           | [Project 6](https://github.com/<your-username>/project-6-task-dashboard)             |
+| 7  | Employee Management Portal             | React + Node.js + MongoDB, CRUD, Authentication, Interactive Management UI            | [Project 7](https://github.com/<your-username>/project-7-employee-portal)            |
+| 8  | Kubernetes CI/CD Pipeline with Jenkins | GitHub → Jenkins → Docker Build → Kubernetes Deploy, Automated Scalable Deployments   | [Project 8](https://github.com/<your-username>/project-8-k8s-jenkins-pipeline)       |
+| 9  | Serverless Chatbot (AWS Lex + Lambda)  | AWS Lex + Lambda + DynamoDB, AI-powered Chatbot, Real-time Frontend Integration       | [Project 9](https://github.com/<your-username>/project-9-serverless-chatbot)         |
+| 10 | Mega Project: Smart Cloud Platform     | React + Node/Spring Boot, MongoDB/DynamoDB, AWS Lex + Lambda, Jenkins, K8s, Terraform | [Mega Project](https://github.com/<your-username>/mega-project-smart-cloud-platform) |
+
+
 ### **Project 1: Two-Tier Docker App**
 
 ```
